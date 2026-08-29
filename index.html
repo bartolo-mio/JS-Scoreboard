@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="style.css" />
+    <title>Scoreboard</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container flex">
+        <div class="scoreboard home flex">
+          <h2 class="title">HOME</h2>
+          <h3
+            class="score"
+            id="home-score">
+            0
+          </h3>
+          <div class="buttons-section flex">
+            <button id="btn-home-1">+1</button>
+            <button id="btn-home-2">+2</button>
+            <button id="btn-home-3">+3</button>
+          </div>
+        </div>
+        <div class="scoreboard guest flex">
+          <h2 class="title">GUESTS</h2>
+          <h3
+            class="score"
+            id="guest-score">
+            0
+          </h3>
+          <div class="buttons-section flex">
+            <button id="btn-guest-1">+1</button>
+            <button id="btn-guest-2">+2</button>
+            <button id="btn-guest-3">+3</button>
+          </div>
+        </div>
+      </div>
+      <div class="saved-scores flex">
+        <div class="saved-scores_home">
+          <h4 class="saved-title">Home Scores</h4>
+          <div
+            class="saved"
+            id="saved-home"></div>
+        </div>
+        <div class="saved-scores_guests">
+          <h4 class="saved-title">Home Scores</h4>
+          <div
+            class="saved"
+            id="saved-guest"></div>
+        </div>
+      </div>
+      <div class="utilities flex">
+        <button
+          class="btn-utility"
+          id="savescore-btn">
+          SAVE SCORES
+        </button>
+        <button
+          class="btn-utility"
+          id="clear-btn">
+          CLEAR THE BOARD
+        </button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+  <html></html>
+</html>
